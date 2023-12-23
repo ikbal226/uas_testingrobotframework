@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20231222 10:44:21.550" rpa="false" schemaversion="4">
+<suite id="s1" name="Test1" source="D:\robotframework\test1.robot">
+<test id="s1-t1" name="Buka google" line="10">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url_eventunpam}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231222 10:44:21.866" level="INFO">Opening browser 'chrome' to base url 'https://event.unpam.ac.id/loginSSO'.</msg>
+<status status="PASS" starttime="20231222 10:44:21.866" endtime="20231222 10:44:26.640"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=inputEmail</arg>
+<arg>${nim}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231222 10:44:26.650" level="INFO">Typing text '201011402001' into text field 'id=inputEmail'.</msg>
+<status status="PASS" starttime="20231222 10:44:26.640" endtime="20231222 10:44:27.033"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>id=inputPassword</arg>
+<arg>${pw}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20231222 10:44:27.033" level="INFO">Typing password into text field 'id=inputPassword'.</msg>
+<msg timestamp="20231222 10:44:27.073" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20231222 10:44:27.165" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20231222 10:44:27.033" endtime="20231222 10:44:27.165"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>&lt;button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" fdprocessedid="b839ab"&gt;Login&lt;/button&gt;</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20231222 10:44:27.167" level="INFO">Clicking button '&lt;button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" fdprocessedid="b839ab"&gt;Login&lt;/button&gt;'.</msg>
+<msg timestamp="20231222 10:44:27.513" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20231222 10:44:27.513" level="FAIL">Button with locator '&lt;button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" fdprocessedid="b839ab"&gt;Login&lt;/button&gt;' not found.</msg>
+<status status="FAIL" starttime="20231222 10:44:27.166" endtime="20231222 10:44:27.523"/>
+</kw>
+<status status="FAIL" starttime="20231222 10:44:21.866" endtime="20231222 10:44:27.523">Button with locator '&lt;button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" fdprocessedid="b839ab"&gt;Login&lt;/button&gt;' not found.</status>
+</test>
+<status status="FAIL" starttime="20231222 10:44:21.550" endtime="20231222 10:44:27.523"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test1">Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

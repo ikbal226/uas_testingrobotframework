@@ -1,0 +1,20 @@
+1702960001841	geckodriver	INFO	Listening on 127.0.0.1:56099
+1702960004979	mozrunner::runner	INFO	Running command: "C:\\Users\\ikbal\\.cache\\selenium\\firefox\\win64\\120.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ikbal\\AppData\\Local\\Temp\\rust_mozprofileUq6jVP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702960007045	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702960007217	Marionette	INFO	Listening on port 56126
+WebDriver BiDi listening on ws://127.0.0.1:56100
+Read port: 56126
+1702960008326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56100/devtools/browser/f58a814e-a692-49a2-b26b-0488f55ff4cb
+1702960039168	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: services.settings: 
+  main/search-config-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2024-01-19-16-42-21.chain'
+console.error: services.settings: 
+  main/search-config-v2 local data was corrupted
+console.warn: services.settings: main/search-config-v2 Signature verified failed. Retry from scratch
+1702960407771	Marionette	INFO	Stopped listening on port 56126
+Dynamically enable window occlusion 1
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
